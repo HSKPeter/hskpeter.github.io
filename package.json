@@ -1,7 +1,7 @@
 {
   "name": "developers-portfolio",
   "description": "A personal static website built to showcase my recent projects.",
-  "homepage": "http://HSKPeter.github.io/personal-site",
+  "homepage": "http://HSKPeter.github.io",
   "version": "1.0.0",
   "private": true,
   "author": {
