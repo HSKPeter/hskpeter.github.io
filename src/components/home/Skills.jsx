@@ -57,6 +57,10 @@ const techStacks = [
     imgFilename: "flask"
   },
   {
+    name: "Insomnia",
+    imgFilename: "insomnia"
+  },
+  {
     name: "Jest",
     imgFilename: "jest"
   },
