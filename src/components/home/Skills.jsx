@@ -9,6 +9,10 @@ const techStacks = [
     imgFilename: "git-icon"
   },
   {
+    name: "Linux",
+    imgFilename: "linux-tux"
+  },
+  {
     name: "Java",
     imgFilename: "java"
   },
@@ -63,6 +67,10 @@ const techStacks = [
   {
     name: "Playwright",
     imgFilename: "playwright-logo"
+  },
+  {
+    name: "MySQL",
+    imgFilename: "mysql"
   },
   {
     name: "PostgreSQL",
