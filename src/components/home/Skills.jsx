@@ -17,6 +17,14 @@ const techStacks = [
     imgFilename: "java"
   },
   {
+    name: "C",
+    imgFilename: "c"
+  },
+  {
+    name: "C++",
+    imgFilename: "c-plusplus"
+  },
+  {
     name: "Python",
     imgFilename: "python"
   },
