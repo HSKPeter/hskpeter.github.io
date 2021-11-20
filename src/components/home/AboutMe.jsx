@@ -8,14 +8,6 @@ const AboutMe = ({ heading, messages}) => {
           <div className="col-10">
             <h2 className="display-4 mb-5 text-center">{heading}</h2>
             {messages.map((message, index) => <p key={`about-me-${index}`}className="lead text-justify">{message}</p>)}
-            <p className="lead text-center">
-                <a
-                  className="btn btn-outline-dark btn-lg"
-                  href="#projects"
-                >
-                  View my Projects
-                </a>
-              </p>
           </div>
         </div>
       </div>
