@@ -38,7 +38,7 @@ const projects = [
     Compute Engine of Google Cloud Platform and Nginx were used to deploy the website with an SSL certificate.
     `,
     referenceLinks: {
-      link: "https://readforyou.tech/",
+      // link: "https://readforyou.tech/",
       video: "https://youtu.be/id-LY-jOshM",
       details: "https://devpost.com/software/read-for-you",
       repo: "https://github.com/HSKPeter/HackDuke2021"
