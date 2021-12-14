@@ -8,14 +8,19 @@ const ProjectCard = ({ value}) => {
     title,
     description,
     referenceLinks,
-    image
+    imageConfig
   } = value;
 
-  const imgStyle = {
-    border: "1px solid rgba(0, 0, 0, 0.125)",
-    borderRadius: "0.125rem",
-    width: "100%"
-  }
+  const {image, imageStyle} = imageConfig;
+
+  // const imgStyle = {
+  //   border: "1px solid rgba(0, 0, 0, 0.125)",
+  //   borderRadius: "0.125rem",
+  //   width: "100%"
+  // }
+
+  // imgStyle["borderRadius"] = (imageConfig["borderRadius"]) ? imageConfig["borderRadius"] : "0.125rem";
+
 
   return (
     <Col sm={12}>
@@ -27,12 +32,14 @@ const ProjectCard = ({ value}) => {
 
             <Grid container>
               <Grid item sm={12} md={9}>
-                <Card.Text className="text-justify">{description}</Card.Text>
+                <Card.Text className="text-justify" dangerouslySetInnerHTML={{ __html: description }}></Card.Text>
                 <CardButtons links={referenceLinks} />
               </Grid>
               <Grid item sm={12} md={1} className="my-2"/>
-              <Grid item sm={12} md={2} >
-                <img src={image} style={imgStyle} className="" alt={title}/>
+              <Grid item sm={12} md={2}>
+                <div className="w-100 d-flex justify-content-center">
+                  <img src={image} style={imageStyle} className="" alt={title}/>
+                </div>
               </Grid>
             </Grid>
             :
@@ -53,6 +60,7 @@ const CardButtons = ({ links }) => {
     link,
     video,
     details,
+    npm,
     repo
   } = links
   return (
@@ -89,6 +97,14 @@ const CardButtons = ({ links }) => {
           <i className="fas fa-info-circle"></i> Details
         </a>
         : ""}
+      {(npm) ?
+        <a
+          href={npm} target="_blank" rel="noopener noreferrer"
+          className="btn btn-outline-secondary mr-3 my-1"
+        >
+          <i className="fab fa-npm"></i> Package
+        </a>
+        : ""}          
       {(repo) ?
         <a
           href={repo} target="_blank" rel="noopener noreferrer"

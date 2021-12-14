@@ -6,6 +6,45 @@ import ProjectCard from "./ProjectCard";
 
 const projects = [
   {
+    title: "FocusHacks",
+    description: `
+    This project was awarded <b>"the Most Creative Use of Twilio"</b> in NewHacks 2021.  
+    Machine Learning technology was used to visually track users' activity and productivity.
+    Twilio SendGrid was adopted to send alert emails to users, motivating them to get back on track when they lost focus or got distracted by cellphones.`,
+    referenceLinks: {
+      video: "https://www.youtube.com/watch?v=47IIFHay_I8&t=114s",
+      details: "https://devpost.com/software/your-virtual-teacher",
+      repo: "https://github.com/NEWHACKS-TEAM/FocusHacks"
+    },
+    imageConfig: {
+      image: require("../../assets/gif/focus-hacks.gif"),
+      imageStyle: {
+        border: "1px solid rgba(0, 0, 0, 0.125)",
+        borderRadius: "0.125rem",
+        width: "100%"
+      }
+    }    
+  },
+  {
+    title: "NPM Package (hk-mahjong)",
+    description: `
+      This is the <b>first-ever</b> NPM package that implements the scoring rules of Hong Kong Mahjong.
+      The package applies the Depth First Search algorithm to solve complex problems in the Mahjong context.
+      The package is written in Typescript with the Object-oriented programming approach.  
+      Jest framework is adopted for unit testing.
+      `,
+    referenceLinks: {
+      npm: "https://www.npmjs.com/package/hk-mahjong",
+      repo: "https://github.com/HSKPeter/hk-mahjong-hand-calculation"
+    },
+    imageConfig: {
+      image: require("../../assets/img/npm.png"),
+      imageStyle: {
+        width: "80%"
+      }
+    }    
+  },
+  {
     title: "Object Detection Model of Chinese Mahjong tiles",
     description: `
       Python and OpenCV were used to create an image dataset with over 6,000 annotations.  
@@ -14,20 +53,14 @@ const projects = [
     referenceLinks: {
       repo: "https://github.com/HSKPeter/mahjong-dataset-augmentation"
     },
-    image: require("../../assets/gif/object-detection.gif")
-  },
-  {
-    title: "FocusHacks",
-    description: `
-    This project was awarded "the Most Creative Use of Twilio" in NewHacks 2021.  
-    Machine Learning technology was used to visually track users' activity and productivity.
-    Twilio SendGrid was adopted to send alert emails to users, motivating them to get back on track when they lost focus or got distracted by cellphones.`,
-    referenceLinks: {
-      video: "https://www.youtube.com/watch?v=47IIFHay_I8&t=114s",
-      details: "https://devpost.com/software/your-virtual-teacher",
-      repo: "https://github.com/NEWHACKS-TEAM/FocusHacks"
-    },
-    image: require("../../assets/gif/focus-hacks.gif")
+    imageConfig: {
+      image: require("../../assets/gif/object-detection.gif"),
+      imageStyle: {
+        border: "1px solid rgba(0, 0, 0, 0.125)",
+        borderRadius: "0.125rem",
+        width: "100%"
+      }
+    }    
   },
   {
     title: "Read For You",
@@ -43,14 +76,22 @@ const projects = [
       details: "https://devpost.com/software/read-for-you",
       repo: "https://github.com/HSKPeter/HackDuke2021"
     },
-    image: require("../../assets/img/read-for-you.png")
+    imageConfig: {
+      image: require("../../assets/img/read-for-you.png"),
+      imageStyle: {
+        border: "1px solid rgba(0, 0, 0, 0.125)",
+        borderRadius: "0.125rem",
+        width: "100%"
+      }
+    }    
   },
   {
     title: "Open API of Hong Kong’s Public Facilities Data",
     description: "This project provides comprehensive data of public toilets to supplement the government’s official open API.  Playwright and Node.js were used for web scrapping and data processing.  AWS Lambda and AWS API Gateway were used to build the open API.",
     referenceLinks: {
       api: "https://m152g1r8v9.execute-api.ap-southeast-1.amazonaws.com/live/toilets"
-    }
+    },
+    imageConfig: {}
   },
   {
     title: "Info Digest Portal",
@@ -63,7 +104,14 @@ const projects = [
     referenceLinks: {
       link: "https://infodigestportal.com/",
     },
-    image: require("../../assets/img/info-digest-portal.png")
+    imageConfig: {
+      image: require("../../assets/img/info-digest-portal.png"),
+      imageStyle: {
+        border: "1px solid rgba(0, 0, 0, 0.125)",
+        borderRadius: "0.125rem",
+        width: "100%"
+      }
+    }    
   },
   {
     title: "Daily YouTube Digest",
@@ -72,7 +120,14 @@ const projects = [
     This project used Node.js to fetch data from YouTube REST APIs of over 140 channels and playlists, and used AWS Lambda to send daily email digest to users.
     `,
     referenceLinks: {},
-    image: require("../../assets/img/youtube-digest.png")
+    imageConfig: {
+      image: require("../../assets/img/youtube-digest.png"),
+      imageStyle: {
+        border: "1px solid rgba(0, 0, 0, 0.125)",
+        borderRadius: "0.125rem",
+        width: "100%"
+      }
+    }    
   }
 ];
 
