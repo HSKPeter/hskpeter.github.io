@@ -128,6 +128,22 @@ const projects = [
         width: "100%"
       }
     }    
+  },
+  {
+    title: "Flocus",
+    description: `
+    This is a group project of the course <a href="https://www.bcit.ca/outlines/20213046873/" target="_blank" rel="noopener noreferrer">COMP1800</a>.  
+    It is an application that helps users enhance productivity with its to-do list and timer features.  HTML, CSS, Bootstrap, JavaScript and Firebase were used to build the project.
+    `,
+    referenceLinks: {
+      repo: "https://github.com/HSKPeter/1800_BBY24"
+    },  
+    imageConfig: {
+      image: require("../../assets/img/flocus.png"),
+      imageStyle: {
+        width: "50%"
+      }
+    }
   }
 ];
 

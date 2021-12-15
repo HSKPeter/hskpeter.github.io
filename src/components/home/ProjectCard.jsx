@@ -44,7 +44,7 @@ const ProjectCard = ({ value}) => {
             </Grid>
             :
             <div>
-              <Card.Text className="text-justify">{description}</Card.Text>
+              <Card.Text className="text-justify" dangerouslySetInnerHTML={{ __html: description }}></Card.Text>
               <CardButtons links={referenceLinks} />
             </div>}
 
