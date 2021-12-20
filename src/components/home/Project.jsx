@@ -65,7 +65,7 @@ const projects = [
   {
     title: "Know Your Stats",
     description: `
-    This project ranked overall #4 in <a href="https://bcit-winter-hacks-2021.devpost.com/">BCIT Winter Hacks 2021</a>.
+    This project ranked <b>overall #4</b> in <a href="https://bcit-winter-hacks-2021.devpost.com/">BCIT Winter Hacks 2021</a>.
     It is a web application that visualizes data to help users better understand their watch histories on YouTube.
     It is built with the React framework, along with libraries including Bootstrap 5, Redux and Chart.js.
     `,
