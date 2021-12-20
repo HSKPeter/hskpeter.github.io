@@ -57,6 +57,10 @@ const techStacks = [
     imgFilename: "react"
   },
   {
+    name: "Redux",
+    imgFilename: "redux"
+  },
+  {
     name: "Express",
     imgFilename: "express"
   },
