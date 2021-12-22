@@ -7,7 +7,7 @@ const GetInTouch = ({ heading, message, profileNameOfLinkedIn, linkOfLinkedIn })
       <div className="lead text-center pb-3">
         <p>{message}</p>
         <p>
-        <a href={linkOfLinkedIn} style={{ color: "inherit"}}>
+        <a href={linkOfLinkedIn} style={{ color: "inherit"}} target="_blank" rel="noopener noreferrer">
           <i className="fab fa-linkedin"></i>
           {" "}
           {profileNameOfLinkedIn}
