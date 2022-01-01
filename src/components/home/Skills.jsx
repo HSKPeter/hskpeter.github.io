@@ -41,6 +41,10 @@ const techStacks = [
     imgFilename: "bootstrap"
   },
   {
+    name: "Material UI",
+    imgFilename: "material-ui"
+  },
+  {
     name: "Figma",
     imgFilename: "figma"
   },
