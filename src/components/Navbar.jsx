@@ -6,7 +6,7 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import { mainBody, projects, about, skills } from "../editable-stuff/config.js";
 
-const Navigation = React.forwardRef(() => {
+const Navigation = () => {
   // const [isTop, setIsTop] = useState(true);
   // const [scrollPosition, setScrollPosition] = useState(0);
   // const navbarMenuRef = React.useRef();
@@ -70,6 +70,6 @@ const Navigation = React.forwardRef(() => {
       </Navbar.Collapse>
     </Navbar>
   );
-});
+};
 
 export default Navigation;

@@ -16,7 +16,7 @@ import Navbar from "./components/Navbar";
 import Skills from "./components/home/Skills";
 import GetInTouch from "./components/home/GetInTouch.jsx";
 
-const Home = React.forwardRef((props, ref) => {
+const Home = () => {
   return (
     <>
       <MainBody
@@ -24,7 +24,6 @@ const Home = React.forwardRef((props, ref) => {
         title={`${mainBody.firstName} ${mainBody.middleName} ${mainBody.lastName}`}
         message={mainBody.message}
         icons={mainBody.icons}
-        ref={ref}
       />
       {about.show && (
         <AboutMe
@@ -44,18 +43,16 @@ const Home = React.forwardRef((props, ref) => {
           softSkills={skills.softSkills}
         />
       )}
-      
+
     </>
   );
-});
+};
 
 const App = () => {
-  const titleRef = React.useRef();
-
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL + "/"}>
-      {navBar.show && <Navbar ref={titleRef} />}
-      <Route path="/" exact component={() => <Home ref={titleRef} />} />
+    <>
+      <Navbar/>
+      <Home />
       <Footer>
         {getInTouch.show && (
           <GetInTouch
@@ -66,7 +63,7 @@ const App = () => {
           />
         )}
       </Footer>
-    </BrowserRouter>
+    </>
   );
 };
 
