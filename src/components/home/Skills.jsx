@@ -117,6 +117,10 @@ const techStacks = [
     imgFilename: "opencv"
   },
   {
+    name: "Docker",
+    imgFilename: "docker"
+  },
+  {
     name: "Nginx",
     imgFilename: "nginx"
   },
