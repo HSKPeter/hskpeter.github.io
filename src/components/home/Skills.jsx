@@ -150,6 +150,10 @@ const techStacks = [
     imgFilename: "visual-studio-code"
   },
   {
+    name: "IntelliJ IDEA",
+    imgFilename: "intellij-idea"
+  },
+  {
     name: "Eclipse",
     imgFilename: "eclipse"
   }
