@@ -13,6 +13,7 @@ const Footer = (props) => {
           <i className="fas fa-code" /> This page is built on the{" "}
           <a
           rel="noopener"
+          target="_blank"
           href="https://github.com/hashirshoaeb/home"
         >
           open source template by hashirshoaeb
