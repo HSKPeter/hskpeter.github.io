@@ -5,7 +5,7 @@ const config = {
         {
             title: "FocusHacks",
             description: `
-          This project was awarded <b>"the Most Creative Use of Twilio"</b> in <a href="https://newhacks-2021.devpost.com/">NewHacks 2021</a>.  
+          This project was awarded <b>"the Most Creative Use of Twilio"</b> in <a href="https://newhacks-2021.devpost.com/" target="_blank" rel="noopener noreferrer">NewHacks 2021</a>.  
           Machine Learning technology was used to visually track users' activity and productivity.
           Twilio SendGrid was adopted to send alert emails to users, motivating them to get back on track when they lost focus or got distracted by cellphones.`,
             referenceLinks: {
@@ -62,7 +62,7 @@ const config = {
         {
             title: "Know Your Stats",
             description: `
-          This project ranked <b>overall #4</b> in <a href="https://bcit-winter-hacks-2021.devpost.com/">BCIT Winter Hacks 2021</a>.
+          This project ranked <b>overall #4</b> in <a href="https://bcit-winter-hacks-2021.devpost.com/" target="_blank" rel="noopener noreferrer">BCIT Winter Hacks 2021</a>.
           It is a web application that visualizes data to help users better understand their watch histories on YouTube.
           It is built with the React framework, along with libraries including Bootstrap 5, Redux and Chart.js.
           `,
@@ -83,7 +83,7 @@ const config = {
         {
             title: "Read For You",
             description: `
-          It is a web application developed within 24 hours in <a href="https://hackduke-2021-code-for-good.devpost.com/">HackDuke2021</a>.  
+          It is a web application developed within 24 hours in <a href="https://hackduke-2021-code-for-good.devpost.com/" target="_blank" rel="noopener noreferrer">HackDuke2021</a>.  
           This application provides image description and text to speech services, with an aim to make images and texts more accessible for visually impaired users.  
           Express.js and the Google Cloud Vision API were used to build the application.  
           Compute Engine of Google Cloud Platform and Nginx were used to deploy the website with an SSL certificate.
