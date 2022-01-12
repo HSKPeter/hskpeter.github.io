@@ -67,6 +67,10 @@ const config = {
           imgFilename: "redux"
         },
         {
+          name: "Next.js",
+          imgFilename: "nextjs"
+        },
+        {
           name: "Express",
           imgFilename: "express"
         },
@@ -142,6 +146,10 @@ const config = {
         {
           name: "Google Cloud Platform",
           imgFilename: "google-cloud-platform"
+        },
+        {
+          name: "CI / CD",
+          imgFilename: "cicd"
         },
         {
           name: "Visual Studio Code",
