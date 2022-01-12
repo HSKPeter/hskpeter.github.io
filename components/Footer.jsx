@@ -17,7 +17,7 @@ const Footer = (props) => {
         >
           open source template by hashirshoaeb
         </a>        
-        {" "}using{" "}<i className="fab fa-react" />
+        {" "}using <i className="cib-next-js"></i>Next.js
           </small>
         </p>
       </Container>

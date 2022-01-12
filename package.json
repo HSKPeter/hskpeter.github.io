@@ -1,5 +1,5 @@
 {
-  "name": "developers-portfolio",
+  "name": "hskpeter-portfolio",
   "description": "A personal static website built to showcase my recent projects.",
   "homepage": "http://HSKPeter.github.io",
   "version": "1.0.0",
@@ -8,12 +8,19 @@
     "name": "Peter H.",
     "url": "https://github.com/HSKPeter"
   },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export",
+    "lint": "next lint"
+  },
   "dependencies": {
     "@material-ui/core": "^4.12.3",
-    "axios": "^0.24.0",
     "bootstrap": "^4.5.2",
     "gh-pages": "^2.2.0",
     "jquery": "^3.5.1",
+    "next": "12.0.7",
     "node-sass": "^4.14.1",
     "prop-types": "^15.7.2",
     "react": "^16.14.0",
@@ -24,33 +31,11 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "^3.4.4",
     "react-typist": "^2.0.5",
+    "sass": "^1.47.0",
     "typescript": "^3.9.7"
   },
-  "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "custom-deploy": "node pages.js"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version",
-      ">0.3%",
-      "not dead",
-      "not op_mini all"
-    ]
+  "devDependencies": {
+    "eslint": "8.6.0",
+    "eslint-config-next": "12.0.7"
   }
 }

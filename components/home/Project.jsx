@@ -17,7 +17,7 @@ const projects = [
       repo: "https://github.com/NEWHACKS-TEAM/FocusHacks"
     },
     imageConfig: {
-      image: require("../../assets/gif/focus-hacks.gif"),
+      image: "/gif/focus-hacks.gif",
       imageStyle: {
         border: "1px solid rgba(0, 0, 0, 0.125)",
         borderRadius: "0.125rem",
@@ -38,7 +38,7 @@ const projects = [
       repo: "https://github.com/HSKPeter/hk-mahjong-hand-calculation"
     },
     imageConfig: {
-      image: require("../../assets/img/npm.png"),
+      image: "/img/npm.png",
       imageStyle: {
         width: "80%"
       }
@@ -54,7 +54,7 @@ const projects = [
       repo: "https://github.com/HSKPeter/mahjong-dataset-augmentation"
     },
     imageConfig: {
-      image: require("../../assets/gif/object-detection.gif"),
+      image: "/gif/object-detection.gif",
       imageStyle: {
         border: "1px solid rgba(0, 0, 0, 0.125)",
         borderRadius: "0.125rem",
@@ -75,7 +75,7 @@ const projects = [
       repo: "https://github.com/HSKPeter/know-my-stats"
     },
     imageConfig: {
-      image: require("../../assets/gif/know-your-stats.gif"),
+      image: "/gif/know-your-stats.gif",
       imageStyle: {
         border: "1px solid rgba(0, 0, 0, 0.125)",
         borderRadius: "0.125rem",
@@ -98,7 +98,7 @@ const projects = [
       repo: "https://github.com/HSKPeter/HackDuke2021"
     },
     imageConfig: {
-      image: require("../../assets/gif/read-for-you.gif"),
+      image: "/gif/read-for-you.gif",
       imageStyle: {
         border: "1px solid rgba(0, 0, 0, 0.125)",
         borderRadius: "0.125rem",
@@ -126,7 +126,7 @@ const projects = [
       link: "https://infodigestportal.com/",
     },
     imageConfig: {
-      image: require("../../assets/img/info-digest-portal.png"),
+      image: "/img/info-digest-portal.png",
       imageStyle: {
         border: "1px solid rgba(0, 0, 0, 0.125)",
         borderRadius: "0.125rem",
@@ -142,7 +142,7 @@ const projects = [
     `,
     referenceLinks: {},
     imageConfig: {
-      image: require("../../assets/img/youtube-digest.png"),
+      image: "/img/youtube-digest.png",
       imageStyle: {
         border: "1px solid rgba(0, 0, 0, 0.125)",
         borderRadius: "0.125rem",
@@ -160,7 +160,7 @@ const projects = [
       repo: "https://github.com/HSKPeter/1800_BBY24"
     },  
     imageConfig: {
-      image: require("../../assets/img/flocus.png"),
+      image: "/img/flocus.png",
       imageStyle: {
         width: "50%"
       }

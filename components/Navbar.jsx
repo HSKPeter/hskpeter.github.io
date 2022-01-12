@@ -4,9 +4,12 @@ import React from "react";
 // import useResizeObserver from "../hooks/useResizeObserver";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
-import { mainBody, projects, about, skills } from "../editable-stuff/config.js";
+import config from "../config/config.js";
 
 const Navigation = () => {
+  const {
+    mainBody, projects, about, skills
+  } = config()
   // const [isTop, setIsTop] = useState(true);
   // const [scrollPosition, setScrollPosition] = useState(0);
   // const navbarMenuRef = React.useRef();
@@ -29,43 +32,42 @@ const Navigation = () => {
   //     ? setIsTop(false)
   //     : setIsTop(true);
   // }, [navBottom, navbarDimensions, ref, scrollPosition]);
-// window.scrollY !== 0 
+  // window.scrollY !== 0 
   return (
     <Navbar
-      
+
       className={` fixed-top navbar-white`}
       expand="lg"
     >
-      <Navbar.Brand className="brand" href={process.env.PUBLIC_URL + "/#home"}>
+      <Navbar.Brand className="brand" href="/#home">
         {`<${mainBody.firstName} />`}
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" className="toggler" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
-          {about.show && (
-            <Nav.Link
-              className="nav-link lead"
-              href={process.env.PUBLIC_URL + "/#aboutme"}
-            >
-              About
-            </Nav.Link>
-          )}
-          {projects.show && (
-            <Nav.Link
-              className="nav-link lead"
-              href={process.env.PUBLIC_URL + "/#projects"}
-            >
-              Projects
-            </Nav.Link>
-          )}
-          {skills.show && (
-            <Nav.Link
-              className="nav-link lead"
-              href={process.env.PUBLIC_URL + "/#skills"}
-            >
-              Skills
-            </Nav.Link>
-          )}
+          <Nav.Link
+            className="nav-link lead"
+            href="/#aboutme"
+          >
+            About
+          </Nav.Link>
+
+
+          <Nav.Link
+            className="nav-link lead"
+            href="/#projects"
+          >
+            Projects
+          </Nav.Link>
+
+
+          <Nav.Link
+            className="nav-link lead"
+            href="/#skills"
+          >
+            Skills
+          </Nav.Link>
+
         </Nav>
       </Navbar.Collapse>
     </Navbar>

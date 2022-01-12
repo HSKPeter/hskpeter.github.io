@@ -3,7 +3,8 @@ import Typist from "react-typist";
 import Container from "react-bootstrap/Container";
 import Jumbotron from "react-bootstrap/Jumbotron";
 
-const MainBody = ({ gradient, title, message, icons }) => {
+const MainBody = 
+  ({ gradient, title, message, icons }) => {
     return (
       <Jumbotron
         fluid
