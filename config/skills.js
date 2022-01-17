@@ -129,8 +129,7 @@ const config = {
         {
           name: "AWS EC2",
           imgFilename: "aws-ec2"
-        },
-      
+        },      
         {
           name: "AWS API Gateway",
           imgFilename: "aws-api-gateway"
@@ -148,6 +147,10 @@ const config = {
           imgFilename: "google-cloud-platform"
         },
         {
+          name: "Microsoft Azure",
+          imgFilename: "azure-icon"
+        },
+        {
           name: "CI / CD",
           imgFilename: "cicd"
         },
@@ -160,8 +163,16 @@ const config = {
           imgFilename: "intellij-idea"
         },
         {
+          name: "CLion",
+          imgFilename: "clion"
+        },
+        {
           name: "Eclipse",
           imgFilename: "eclipse"
+        },
+        {
+          name: "Trello",
+          imgFilename: "trello"
         }
       ]
 };
