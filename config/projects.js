@@ -87,7 +87,7 @@ const config = {
             Microsoft Azure Cloud Services and Open AI were used in this project as well.  
           `,
             referenceLinks: {
-                repo: "https://github.com/HSKPeter/github-portal",
+                repo: "https://github.com/HSKPeter/nwHacks2022",
                 details: "https://portal.nwplus.io/projects/U5zP6nUrOmfhNcV5N1bG",
                 video: "https://www.youtube.com/watch?v=iFtexjomqwA&t=118s",
 
