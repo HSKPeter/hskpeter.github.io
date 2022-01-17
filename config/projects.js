@@ -42,24 +42,6 @@ const config = {
             }
         },
         {
-            title: "Object Detection Model of Chinese Mahjong tiles",
-            description: `
-            Python and OpenCV were used to create an image dataset with over 6,000 annotations.  
-            Google Cloud AutoML tool was then adopted to build an Object Detection Model that could identify and locate 34 kinds of mahjong tile patterns within a live streaming video.  
-            `,
-            referenceLinks: {
-                repo: "https://github.com/HSKPeter/mahjong-dataset-augmentation"
-            },
-            imageConfig: {
-                image: "/img/object-detection.png",
-                imageStyle: {
-                    border: "1px solid rgba(0, 0, 0, 0.125)",
-                    borderRadius: "0.125rem",
-                    width: "100%"
-                }
-            }
-        },
-        {
             title: "Know Your Stats",
             description: `
           This project ranked <b>overall #4</b> in <a href="https://bcit-winter-hacks-2021.devpost.com/" target="_blank" rel="noopener noreferrer">BCIT Winter Hacks 2021</a>.
@@ -73,6 +55,45 @@ const config = {
             },
             imageConfig: {
                 image: "/img/know-your-stats.png",
+                imageStyle: {
+                    border: "1px solid rgba(0, 0, 0, 0.125)",
+                    borderRadius: "0.125rem",
+                    width: "100%"
+                }
+            }
+        },
+        {
+            title: "GitHub Portal",
+            description: `
+            It is a web application that helps users to subscribe to latest updates of particular GitHub repositories.  HTML, CSS, vanilla JavaScript, Express.js and MySQL were used to build the application.  Docker was also used to containerize the application.
+          `,
+            referenceLinks: {
+                repo: "https://github.com/HSKPeter/github-portal"
+            },
+            imageConfig: {
+                image: "/img/github-portal.png",
+                imageStyle: {
+                    border: "1px solid rgba(0, 0, 0, 0.125)",
+                    borderRadius: "0.125rem",
+                    width: "100%"
+                }
+            }
+        },
+        {
+            title: "Lost & Found",
+            description: `
+            Sometimes it might be annoying when you lose something.  Lost & Found was an AI-integrated platform tool developed within 24 hours at <a href="https://www.nwhacks.io/" target="_blank" rel="noopener noreferrer">nwHacks2022</a> to help users get lost items back much easier.  
+            The application was built with React, Material UI, Express, MySQL, and containerized with Docker.  
+            Microsoft Azure Cloud Services and Open AI were used in this project as well.  
+          `,
+            referenceLinks: {
+                repo: "https://github.com/HSKPeter/github-portal",
+                details: "https://portal.nwplus.io/projects/U5zP6nUrOmfhNcV5N1bG",
+                video: "https://www.youtube.com/watch?v=iFtexjomqwA&t=118s",
+
+            },
+            imageConfig: {
+                image: "/img/lost-and-found.png",
                 imageStyle: {
                     border: "1px solid rgba(0, 0, 0, 0.125)",
                     borderRadius: "0.125rem",
@@ -104,8 +125,26 @@ const config = {
             }
         },
         {
-            title: "Open API of Hong Kong’s Public Facilities Data",
-            description: "This project provides comprehensive data of public toilets to supplement the government’s official open API.  Playwright and Node.js were used for web scrapping and data processing.  AWS Lambda and AWS API Gateway were used to build the open API.",
+            title: "Object Detection Model of Chinese Mahjong tiles",
+            description: `
+            Python and OpenCV were used to create an image dataset with over 6,000 annotations.  
+            Google Cloud AutoML tool was then adopted to build an Object Detection Model that could identify and locate 34 kinds of mahjong tile patterns within a live streaming video.  
+            `,
+            referenceLinks: {
+                repo: "https://github.com/HSKPeter/mahjong-dataset-augmentation"
+            },
+            imageConfig: {
+                image: "/img/object-detection.png",
+                imageStyle: {
+                    border: "1px solid rgba(0, 0, 0, 0.125)",
+                    borderRadius: "0.125rem",
+                    width: "100%"
+                }
+            }
+        },
+        {
+            title: "Open API of Hong Kong's Public Facilities Data",
+            description: "This project provides comprehensive data of public toilets to supplement the government's official open API.  Playwright and Node.js were used for web scrapping and data processing.  AWS Lambda and AWS API Gateway were used to build the open API.",
             referenceLinks: {
                 api: "https://m152g1r8v9.execute-api.ap-southeast-1.amazonaws.com/live/toilets"
             },
