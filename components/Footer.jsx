@@ -12,8 +12,8 @@ const Footer = (props) => {
           <small className="text-muted">
           <i className="fas fa-code" /> This page is built on the{" "}
           <a
-          rel="noopener"
           target="_blank"
+          rel="noopener noreferrer"
           href="https://github.com/hashirshoaeb/home"
         >
           open source template by hashirshoaeb
