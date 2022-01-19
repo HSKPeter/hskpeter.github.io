@@ -102,29 +102,6 @@ const config = {
             }
         },
         {
-            title: "Read For You",
-            description: `
-          It is a web application developed within 24 hours in <a href="https://hackduke-2021-code-for-good.devpost.com/" target="_blank" rel="noopener noreferrer">HackDuke2021</a>.  
-          This application provides image description and text to speech services, with an aim to make images and texts more accessible for visually impaired users.  
-          Express.js and the Google Cloud Vision API were used to build the application.  
-          Compute Engine of Google Cloud Platform and Nginx were used to deploy the website with an SSL certificate.
-          `,
-            referenceLinks: {
-                // link: "https://readforyou.tech/",
-                video: "https://youtu.be/id-LY-jOshM",
-                details: "https://devpost.com/software/read-for-you",
-                repo: "https://github.com/HSKPeter/HackDuke2021"
-            },
-            imageConfig: {
-                image: "/img/read-for-you.png",
-                imageStyle: {
-                    border: "1px solid rgba(0, 0, 0, 0.125)",
-                    borderRadius: "0.125rem",
-                    width: "100%"
-                }
-            }
-        },
-        {
             title: "Object Detection Model of Chinese Mahjong tiles",
             description: `
             Python and OpenCV were used to create an image dataset with over 6,000 annotations.  
@@ -149,6 +126,47 @@ const config = {
                 api: "https://m152g1r8v9.execute-api.ap-southeast-1.amazonaws.com/live/toilets"
             },
             imageConfig: {}
+        },
+        {
+            title: "Spacestagram",
+            description: `
+            It is a project to solve Shopify's coding challenge.  This project fetches data from NASA’s API to display the <i>Astronomy Picture of the Day</i>.  It was built with TypeScript, React and Redux.  
+            `,
+            referenceLinks: {
+                link: "https://hskpeter.github.io/spacestagram/",
+                repo: "https://github.com/HSKPeter/spacestagram"
+            },
+            imageConfig: {
+                image: "/img/spacestagram.png",
+                imageStyle: {
+                    border: "1px solid rgba(0, 0, 0, 0.125)",
+                    borderRadius: "0.125rem",
+                    width: "100%"
+                }
+            }
+        },
+        {
+            title: "Read For You",
+            description: `
+          It is a web application developed within 24 hours in <a href="https://hackduke-2021-code-for-good.devpost.com/" target="_blank" rel="noopener noreferrer">HackDuke2021</a>.  
+          This application provides image description and text to speech services, with an aim to make images and texts more accessible for visually impaired users.  
+          Express.js and the Google Cloud Vision API were used to build the application.  
+          Compute Engine of Google Cloud Platform and Nginx were used to deploy the website with an SSL certificate.
+          `,
+            referenceLinks: {
+                // link: "https://readforyou.tech/",
+                video: "https://youtu.be/id-LY-jOshM",
+                details: "https://devpost.com/software/read-for-you",
+                repo: "https://github.com/HSKPeter/HackDuke2021"
+            },
+            imageConfig: {
+                image: "/img/read-for-you.png",
+                imageStyle: {
+                    border: "1px solid rgba(0, 0, 0, 0.125)",
+                    borderRadius: "0.125rem",
+                    width: "100%"
+                }
+            }
         },
         {
             title: "Info Digest Portal",
