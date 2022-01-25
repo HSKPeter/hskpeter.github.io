@@ -26,7 +26,7 @@ const config = {
             title: "NPM Package (hk-mahjong)",
             description: `
             This is the <b>first-ever</b> NPM package that implements the scoring rules of Hong Kong Mahjong.
-            The package applies the Depth First Search algorithm to solve complex problems in the Mahjong context.
+            The package applies the Breadth First Search algorithm to solve complex problems in the Mahjong context.
             The package is written in Typescript with the Object-oriented programming approach.  
             Jest framework is adopted for unit testing.
             `,
