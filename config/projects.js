@@ -6,8 +6,8 @@ const config = {
             title: "FocusHacks",
             description: `
           This project was awarded <b>"the Most Creative Use of Twilio"</b> in <a href="https://newhacks-2021.devpost.com/" target="_blank" rel="noopener noreferrer">NewHacks 2021</a>.  
-          Machine Learning technology was used to visually track users' activity and productivity.
-          Twilio SendGrid was adopted to send alert emails to users, motivating them to get back on track when they lost focus or got distracted by cellphones.`,
+          Machine Learning technology was used to track users' activity and enhance their productivity.
+          Twilio SendGrid was adopted to send alert emails to users, motivating users to get back on track when they lost focus or got distracted by cellphones.`,
             referenceLinks: {
                 video: "https://www.youtube.com/watch?v=47IIFHay_I8&t=114s",
                 details: "https://devpost.com/software/your-virtual-teacher",
@@ -27,7 +27,7 @@ const config = {
             description: `
             This is the <b>first-ever</b> NPM package that implements the scoring rules of Hong Kong Mahjong.
             The package applies the Breadth First Search algorithm to solve complex problems in the Mahjong context.
-            The package is written in Typescript with the Object-oriented programming approach.  
+            The package was written in Typescript with the Object-oriented programming approach.  
             Jest framework is adopted for unit testing.
             `,
             referenceLinks: {
@@ -45,8 +45,8 @@ const config = {
             title: "Know Your Stats",
             description: `
           This project ranked <b>overall #4</b> in <a href="https://bcit-winter-hacks-2021.devpost.com/" target="_blank" rel="noopener noreferrer">BCIT Winter Hacks 2021</a>.
-          It is a web application that visualizes data to help users better understand their watch histories on YouTube.
-          It is built with the React framework, along with libraries including Bootstrap 5, Redux and Chart.js.
+          It was a web application that visualized data to help users better understand their YouTube watch histories.
+          It was built with the React framework, along with libraries including Redux, Bootstrap 5 and Chart.js.
           `,
             referenceLinks: {
                 video: "https://youtu.be/cBvDCrZL0bg",
@@ -65,7 +65,8 @@ const config = {
         {
             title: "GitHub Portal",
             description: `
-            It is a web application that helps users to subscribe to latest updates of particular GitHub repositories.  HTML, CSS, vanilla JavaScript, Express.js and MySQL were used to build the application.  Docker was also used to containerize the application.
+            It was a web application that helped users to subscribe to latest updates of particular GitHub repositories.  
+            HTML, CSS, vanilla JavaScript, Express.js and MySQL were used to build the application.  Docker was also used to containerize the application.
           `,
             referenceLinks: {
                 repo: "https://github.com/HSKPeter/github-portal"
@@ -82,7 +83,8 @@ const config = {
         {
             title: "Lost & Found",
             description: `
-            Sometimes it might be annoying when you lose something.  Lost & Found was an AI-integrated platform tool developed within 24 hours at <a href="https://www.nwhacks.io/" target="_blank" rel="noopener noreferrer">nwHacks2022</a> to help users get lost items back much easier.  
+            Sometimes it might be annoying when you lose something.  
+            Lost & Found was an AI-integrated platform tool developed within 24 hours at <a href="https://www.nwhacks.io/" target="_blank" rel="noopener noreferrer">nwHacks2022</a> to help users get lost items back much easier.  
             The application was built with React, Material UI, Express, MySQL, and containerized with Docker.  
             Microsoft Azure Cloud Services and Open AI were used in this project as well.  
           `,
@@ -121,7 +123,10 @@ const config = {
         },
         {
             title: "Open API of Hong Kong's Public Facilities Data",
-            description: "This project provides comprehensive data of public toilets to supplement the government's official open API.  Playwright and Node.js were used for web scrapping and data processing.  AWS Lambda and AWS API Gateway were used to build the open API.",
+            description: `
+            This project provides comprehensive data of public toilets to supplement the government's official open API.  
+            Playwright and Node.js were used for web scrapping and data processing.  
+            AWS Lambda and AWS API Gateway were used to build the open RESTful API.`,
             referenceLinks: {
                 api: "https://m152g1r8v9.execute-api.ap-southeast-1.amazonaws.com/live/toilets"
             },
@@ -130,7 +135,8 @@ const config = {
         {
             title: "Spacestagram",
             description: `
-            It is a project to solve Shopify's coding challenge.  This project fetches data from NASA’s API to display the <i>Astronomy Picture of the Day</i>.  It was built with TypeScript, React and Redux.  
+            This project fetched data from NASA's API to display the <i>Astronomy Picture of the Day</i>.  
+            It was built with TypeScript, React and Redux.  
             `,
             referenceLinks: {
                 link: "https://hskpeter.github.io/spacestagram/",
@@ -148,10 +154,10 @@ const config = {
         {
             title: "Read For You",
             description: `
-          It is a web application developed within 24 hours in <a href="https://hackduke-2021-code-for-good.devpost.com/" target="_blank" rel="noopener noreferrer">HackDuke2021</a>.  
-          This application provides image description and text to speech services, with an aim to make images and texts more accessible for visually impaired users.  
-          Express.js and the Google Cloud Vision API were used to build the application.  
-          Compute Engine of Google Cloud Platform and Nginx were used to deploy the website with an SSL certificate.
+            It was a web application developed within 24 hours in <a href="https://hackduke-2021-code-for-good.devpost.com/" target="_blank" rel="noopener noreferrer">HackDuke2021</a>.  
+            This application provided image description and text to speech services, with an aim to make images and texts more accessible for visually impaired users.  
+            Express.js and the Google Cloud Vision API were used to build the application.  
+            Compute Engine of Google Cloud Platform and Nginx were used to deploy the website with an SSL certificate.
           `,
             referenceLinks: {
                 // link: "https://readforyou.tech/",
@@ -171,10 +177,10 @@ const config = {
         {
             title: "Info Digest Portal",
             description: `
-          It is a web application that helps users to digest news in today's information overloaded era, by organizing latest news feeds from various information sources and presenting them in an unified layout.  
-          TypeScript was used to retrieve information from 6 open REST APIs, including CBC and CTV.  
-          Bootstrap, Express.js and PostgreSQL were used to build the application.  
-          AWS EC2 and Nginx were adopted to deploy the web application with SSL certificate.
+            It is a web application that helps users to digest news in today's information overloaded era, by organizing latest news feeds from various information sources and presenting them in an unified layout.  
+            TypeScript was used to retrieve information from 6 open REST APIs, including CBC and CTV.  
+            Bootstrap, Express.js and PostgreSQL were used to build the application.  
+            AWS EC2 and Nginx were adopted to deploy the web application with SSL certificate.
           `,
             referenceLinks: {
                 link: "https://infodigestportal.com/",
@@ -191,8 +197,9 @@ const config = {
         {
             title: "Daily YouTube Digest",
             description: `
-          This project helps active YouTube users to overcome the echo-chamber effects.  
-          This project used Node.js to fetch data from YouTube REST APIs of over 140 channels and playlists, and used AWS Lambda to send daily email digest to users.
+            This project helped active YouTube users to overcome the echo-chamber effects.  
+            This project used Node.js to fetch data from YouTube REST APIs of over 140 channels and playlists, 
+            and used AWS Lambda to send daily email digest to users.
           `,
             referenceLinks: {},
             imageConfig: {
@@ -207,8 +214,9 @@ const config = {
         {
             title: "Flocus",
             description: `
-          This is a group project of the course <a href="https://www.bcit.ca/outlines/20213046873/" target="_blank" rel="noopener noreferrer">COMP1800</a>.  
-          It is an application that helps users enhance productivity with its to-do list and timer features.  HTML, CSS, Bootstrap, JavaScript and Firebase were used to build the project.
+            This is a group project of the course <a href="https://www.bcit.ca/outlines/20213046873/" target="_blank" rel="noopener noreferrer">COMP1800</a>.  
+            It is an application that helps users enhance productivity with its to-do list and timer features.  
+            HTML, CSS, Bootstrap, JavaScript and Firebase were used to build the project.
           `,
             referenceLinks: {
                 repo: "https://github.com/HSKPeter/1800_BBY24"
