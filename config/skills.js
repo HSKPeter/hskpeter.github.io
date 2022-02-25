@@ -43,6 +43,10 @@ const config = {
           imgFilename: "material-ui"
         },
         {
+          name: "Tailwind",
+          imgFilename: "tailwind"
+        },
+        {
           name: "Figma",
           imgFilename: "figma"
         },
