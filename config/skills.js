@@ -133,14 +133,18 @@ const config = {
         {
           name: "AWS EC2",
           imgFilename: "aws-ec2"
-        },      
+        },   
         {
-          name: "AWS API Gateway",
-          imgFilename: "aws-api-gateway"
+          name: "AWS S3",
+          imgFilename: "aws-s3"
         },
         {
           name: "AWS Lambda",
           imgFilename: "aws-lambda"
+        },   
+        {
+          name: "AWS API Gateway",
+          imgFilename: "aws-api-gateway"
         },
         {
           name: "AWS Cloudwatch",
@@ -153,6 +157,10 @@ const config = {
         {
           name: "Microsoft Azure",
           imgFilename: "azure-icon"
+        },
+        {
+          name: "Serverless",
+          imgFilename: "serverless"
         },
         {
           name: "CI / CD",
