@@ -107,6 +107,10 @@ const config = {
           imgFilename: "postgresql"
         },
         {
+          name: "MongoDB",
+          imgFilename: "mongodb"
+        },
+        {
           name: "Firebase",
           imgFilename: "firebase"
         },
