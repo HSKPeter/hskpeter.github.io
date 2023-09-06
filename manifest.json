@@ -1,7 +1,10 @@
 {
   "main.js": "render-page.js",
   "main.js.map": "render-page.js.map",
+  "static/awscdk.png": "static/awscdk-e1e33767cc42334c05ce71ec524b5410.png",
   "static/default.jpg": "static/default-bc7ceaf7925f5b47adee06511c3120ee.jpg",
   "static/huggingface.svg": "static/huggingface-ba674beba14628f033f29d80bcdaff93.svg",
-  "static/mockito.png": "static/mockito-7fa4f9cff5dea166914f6aebdfd9adda.png"
+  "static/mockito.png": "static/mockito-7fa4f9cff5dea166914f6aebdfd9adda.png",
+  "static/r.png": "static/r-dad319a64c21bae091c79a2bc8f8dad1.png",
+  "static/springboot.png": "static/springboot-0881daccb5178410b18a1a36984da095.png"
 }

@@ -21,9 +21,9 @@
   Cache-Control: public, max-age=31536000, immutable
 /framework-287a654f9ebe8384dd16.js
   Cache-Control: public, max-age=31536000, immutable
-/component---src-pages-index-js-f47e99d23d03566d1d76.js
+/component---src-pages-index-js-2dd935a4e9838b3fb96e.js
   Cache-Control: public, max-age=31536000, immutable
-/webpack-runtime-99c9fdd81e194e02e12b.js
+/webpack-runtime-d2591062d9f095d6a048.js
   Cache-Control: public, max-age=31536000, immutable
 /app-f13262ac28be60ad6f23.js
   Cache-Control: public, max-age=31536000, immutable
@@ -32,12 +32,12 @@
 /sw.js
   Cache-Control: no-cache
 /offline-plugin-app-shell-fallback/
-  Link: </webpack-runtime-99c9fdd81e194e02e12b.js>; rel=preload; as=script
+  Link: </webpack-runtime-d2591062d9f095d6a048.js>; rel=preload; as=script
   Link: </framework-287a654f9ebe8384dd16.js>; rel=preload; as=script
   Link: </app-f13262ac28be60ad6f23.js>; rel=preload; as=script
   Link: </component---node-modules-gatsby-plugin-offline-app-shell-js-71d739856b2e5b4441f2.js>; rel=preload; as=script
 /404/
-  Link: </webpack-runtime-99c9fdd81e194e02e12b.js>; rel=preload; as=script
+  Link: </webpack-runtime-d2591062d9f095d6a048.js>; rel=preload; as=script
   Link: </framework-287a654f9ebe8384dd16.js>; rel=preload; as=script
   Link: </app-f13262ac28be60ad6f23.js>; rel=preload; as=script
   Link: </styles-7d4153d260c0197f0043.js>; rel=preload; as=script
@@ -45,7 +45,7 @@
   Link: </8c30791ffe8c828e16ad1c8d02d793d3e653add2-850abe6339e59ad9bd3b.js>; rel=preload; as=script
   Link: </component---src-pages-404-js-f46638058fd8ad8417cf.js>; rel=preload; as=script
 /daily-news-highlights/
-  Link: </webpack-runtime-99c9fdd81e194e02e12b.js>; rel=preload; as=script
+  Link: </webpack-runtime-d2591062d9f095d6a048.js>; rel=preload; as=script
   Link: </framework-287a654f9ebe8384dd16.js>; rel=preload; as=script
   Link: </app-f13262ac28be60ad6f23.js>; rel=preload; as=script
   Link: </styles-7d4153d260c0197f0043.js>; rel=preload; as=script
@@ -53,16 +53,16 @@
   Link: </8c30791ffe8c828e16ad1c8d02d793d3e653add2-850abe6339e59ad9bd3b.js>; rel=preload; as=script
   Link: </component---src-pages-daily-news-highlights-js-56825d1c1cb470d38f34.js>; rel=preload; as=script
 /
-  Link: </webpack-runtime-99c9fdd81e194e02e12b.js>; rel=preload; as=script
+  Link: </webpack-runtime-d2591062d9f095d6a048.js>; rel=preload; as=script
   Link: </framework-287a654f9ebe8384dd16.js>; rel=preload; as=script
   Link: </app-f13262ac28be60ad6f23.js>; rel=preload; as=script
   Link: </styles-7d4153d260c0197f0043.js>; rel=preload; as=script
   Link: </framework-287a654f9ebe8384dd16.js>; rel=preload; as=script
   Link: </05d954cf-18582791c9be0dd2a0d3.js>; rel=preload; as=script
   Link: </8c30791ffe8c828e16ad1c8d02d793d3e653add2-850abe6339e59ad9bd3b.js>; rel=preload; as=script
-  Link: </component---src-pages-index-js-f47e99d23d03566d1d76.js>; rel=preload; as=script
+  Link: </component---src-pages-index-js-2dd935a4e9838b3fb96e.js>; rel=preload; as=script
 /404.html
-  Link: </webpack-runtime-99c9fdd81e194e02e12b.js>; rel=preload; as=script
+  Link: </webpack-runtime-d2591062d9f095d6a048.js>; rel=preload; as=script
   Link: </framework-287a654f9ebe8384dd16.js>; rel=preload; as=script
   Link: </app-f13262ac28be60ad6f23.js>; rel=preload; as=script
   Link: </styles-7d4153d260c0197f0043.js>; rel=preload; as=script
