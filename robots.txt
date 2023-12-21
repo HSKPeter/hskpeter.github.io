@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://hskpeter.github.io/sitemap.xml
+Sitemap: https://hskpeter.github.io/sitemap-index.xml
 Host: https://hskpeter.github.io
