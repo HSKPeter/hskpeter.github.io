@@ -27,7 +27,7 @@
   Cache-Control: public, max-age=31536000, immutable
 /webpack-runtime-e32c4b788a52d107e32b.js
   Cache-Control: public, max-age=31536000, immutable
-/app-c4b8c62d2d4d69bc2422.js
+/app-2faddd68bf895668f81c.js
   Cache-Control: public, max-age=31536000, immutable
 /static/*
   Cache-Control: public, max-age=31536000, immutable
@@ -36,14 +36,14 @@
 /offline-plugin-app-shell-fallback/
   Link: </webpack-runtime-e32c4b788a52d107e32b.js>; rel=preload; as=script
   Link: </framework-cf8ed573c1af58922fc2.js>; rel=preload; as=script
-  Link: </app-c4b8c62d2d4d69bc2422.js>; rel=preload; as=script
+  Link: </app-2faddd68bf895668f81c.js>; rel=preload; as=script
   Link: </component---cache-caches-gatsby-plugin-offline-app-shell-js-f1feb67e717c128469ec.js>; rel=preload; as=script
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/offline-plugin-app-shell-fallback/page-data.json>; rel=preload; as=fetch; crossorigin
 /404/
   Link: </webpack-runtime-e32c4b788a52d107e32b.js>; rel=preload; as=script
   Link: </framework-cf8ed573c1af58922fc2.js>; rel=preload; as=script
-  Link: </app-c4b8c62d2d4d69bc2422.js>; rel=preload; as=script
+  Link: </app-2faddd68bf895668f81c.js>; rel=preload; as=script
   Link: </styles-f3e9059f8c2a75df70f2.js>; rel=preload; as=script
   Link: </05d954cf-ec6d965d759215560a9e.js>; rel=preload; as=script
   Link: </8c30791ffe8c828e16ad1c8d02d793d3e653add2-eb56fb98a61713e57f57.js>; rel=preload; as=script
@@ -53,7 +53,7 @@
 /daily-news-highlights/
   Link: </webpack-runtime-e32c4b788a52d107e32b.js>; rel=preload; as=script
   Link: </framework-cf8ed573c1af58922fc2.js>; rel=preload; as=script
-  Link: </app-c4b8c62d2d4d69bc2422.js>; rel=preload; as=script
+  Link: </app-2faddd68bf895668f81c.js>; rel=preload; as=script
   Link: </styles-f3e9059f8c2a75df70f2.js>; rel=preload; as=script
   Link: </05d954cf-ec6d965d759215560a9e.js>; rel=preload; as=script
   Link: </8c30791ffe8c828e16ad1c8d02d793d3e653add2-eb56fb98a61713e57f57.js>; rel=preload; as=script
@@ -64,7 +64,7 @@
 /
   Link: </webpack-runtime-e32c4b788a52d107e32b.js>; rel=preload; as=script
   Link: </framework-cf8ed573c1af58922fc2.js>; rel=preload; as=script
-  Link: </app-c4b8c62d2d4d69bc2422.js>; rel=preload; as=script
+  Link: </app-2faddd68bf895668f81c.js>; rel=preload; as=script
   Link: </styles-f3e9059f8c2a75df70f2.js>; rel=preload; as=script
   Link: </framework-cf8ed573c1af58922fc2.js>; rel=preload; as=script
   Link: </05d954cf-ec6d965d759215560a9e.js>; rel=preload; as=script
@@ -76,7 +76,7 @@
 /404.html
   Link: </webpack-runtime-e32c4b788a52d107e32b.js>; rel=preload; as=script
   Link: </framework-cf8ed573c1af58922fc2.js>; rel=preload; as=script
-  Link: </app-c4b8c62d2d4d69bc2422.js>; rel=preload; as=script
+  Link: </app-2faddd68bf895668f81c.js>; rel=preload; as=script
   Link: </styles-f3e9059f8c2a75df70f2.js>; rel=preload; as=script
   Link: </05d954cf-ec6d965d759215560a9e.js>; rel=preload; as=script
   Link: </8c30791ffe8c828e16ad1c8d02d793d3e653add2-eb56fb98a61713e57f57.js>; rel=preload; as=script
